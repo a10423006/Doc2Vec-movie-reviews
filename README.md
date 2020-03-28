@@ -22,3 +22,5 @@
 訓練資料和測試資料各 25000筆，另包含沒有標註情感分數的額外訓練資料集 50000筆
  
 ![訓練資料集欄位](https://github.com/a10423006/Doc2Vec-movie-reviews/blob/master/images/image_1.png)
+
+![訓練資料集情感分佈](https://github.com/a10423006/Doc2Vec-movie-reviews/blob/master/sentiment_bar.png)
