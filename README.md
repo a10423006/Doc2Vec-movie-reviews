@@ -13,6 +13,7 @@
 > To achieve these goals, we rely on an IMDB sentiment analysis data set, which has 100,000 multi-paragraph movie reviews, both positive and negative. 
 
 簡單來說就是使用 _Word2Vec_ 對 IMDB 的電影評論進行情感分析，透過模型判斷該評論為正面或負面。
+
 雖然網頁上是要求使用 **_Word2Vec_**，但我是使用它的延伸應用 **_Doc2Vec_**
 [models.doc2vec – Doc2vec paragraph embeddings](https://radimrehurek.com/gensim/models/doc2vec.html)
 
@@ -27,7 +28,7 @@
 ---
 | | SVC | Decision Tree | Random Forest | Logistic Regression | KNN |
 |:--------:|:-----:|:------:|:-----:|:-----:|:-----:|
-| **Accuracy** | _0.837_ | 0.639 | 0.808 | 0.833 | 0.709 |
+| **Accuracy** | <font color="red">0.837</font> | 0.639 | 0.808 | 0.833 | 0.709 |
 | **MSE** | 0.159 | 0.0 | 0.0 | 0.163 | 0.202 |
 | **MAE** | 0.159 | 0.0 | 0.0 | 0.163 | 0.202 |
 
